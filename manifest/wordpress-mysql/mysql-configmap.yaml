@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  wordpressdb.sql: |+
+    CREATE DATABASE IF NOT EXISTS wordpressdb CHARACTER SET utf8 COLLATE utf8_bin;
+
+kind: ConfigMap
+metadata:
+  name: mysql-create-wordpressdb
+  namespace: web
