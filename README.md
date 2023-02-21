@@ -34,4 +34,4 @@ O objetivo do Lab e demonstrar como criar uma conta na GCP, criar um cluster GKE
 - [Instalando Nginx Ingress](roteiro/10-instalando-nginx.md)
 - [Criando GCR](roteiro/11-criando-gcr.md)
 - [Criando Filestore](roteiro/12-criando-filestore.md)
-- [Criando Wordpress storage persistente](roteiro/13-helm-wordpress-persistente.md)
+- [Deploy Wordpress storage persistente](roteiro/13-deploy-wordpress.md)
