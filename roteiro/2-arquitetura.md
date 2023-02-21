@@ -1,15 +1,26 @@
-# 2. Arquitetura de cluster padrão
+# 2. Arquitetura
+## Componetes 
 
-![alt text](assets/gke.png)
+- Control plane 
+- etcd
+- controller
+- api-server
+- schedule
+- container runtime
+- kubelet
+- kube-proxy
 
-## Sobre o Cluster do GKE
+## Objetos
 
- - Execute seus apps em um cluster Kubernetes totalmente gerenciado com o GKE Autopilot
+O Kubernetes possuí uma grande quantidade de objetos, cada qual com suas características e funções. O gerenciamento do cluster acontece justamente ao manusear esse objetos juntos, criando aplicações que interajam entre si e dependam dos mais variados objetos. 
 
-- Inicie processos rapidamente com clusters implementados com apenas um clique e faça um escalonamento vertical para até 15 mil nós.
 
- - Aproveite um plano de controle de alta disponibilidade, incluindo clusters multizonais e regionais.
-
-- Elimine a sobrecarga operacional com escalonamento automático de quatro direções pioneiro do setor. 
-
-- Produto seguro por padrão, incluindo verificação de vulnerabilidades em imagens de contêiner e criptografia de dados.
+- Namespaces
+- Pod
+- Deployment
+- Service
+- ConfigMap
+- Secret
+- PersistentVolume
+- PersistentVolumeClaim
+- Ingress
