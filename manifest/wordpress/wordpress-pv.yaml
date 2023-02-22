@@ -10,4 +10,4 @@ spec:
   storageClassName: ""  
   nfs:
     path: /wpdata
-    server: "10.139.233.90"
+    server: "10.36.169.58"

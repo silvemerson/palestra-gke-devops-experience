@@ -6,4 +6,4 @@ data:
 kind: ConfigMap
 metadata:
   name: mysql-create-wordpressdb
-  namespace: web
+  # namespace: web

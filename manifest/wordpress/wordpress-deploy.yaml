@@ -16,7 +16,7 @@ spec:
         app: wordpress
     spec:
       containers:
-      - image: gcr.io/spartan-setting-369416/wordpress
+      - image: gcr.io/amplified-lamp-378502/wordpress
         name: wordpress
         env:
         - name: WORDPRESS_DB_USER
