@@ -1,6 +1,6 @@
 ## 11 . Baixe a imagem do MYSQL
 
-```docker pull mysql:5.7```
+```docker pull mysql:latest```
 
 ## Baixe a imagem do Wordpress
 

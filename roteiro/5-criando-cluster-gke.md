@@ -11,5 +11,5 @@
 
 Acesse o link: https://console.cloud.google.com/kubernetes
 
-Criar > Standard: Você gerencia seu Cluster > Configurar > Defina um Nome > Versão estatica > Criar
+Criar > Autopilot > Configurar > Defina um Nome > Versão estatica > Criar
 

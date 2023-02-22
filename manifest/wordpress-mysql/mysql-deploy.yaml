@@ -16,7 +16,8 @@ spec:
         app: wordpress-mysql
     spec:
       containers:
-      - image: gcr.io/spartan-setting-369416/mysql:5.7
+      - image: mysql
+      # - image: gcr.io/amplified-lamp-378502/mysql:5.7
         name: mysql
         env:    
         - name: MYSQL_ROOT_PASSWORD
