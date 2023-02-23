@@ -12,13 +12,13 @@
 
 ## Aponte para o seu repositório no GCR
 
-```docker tag mysql:5.7 gcr.io/ID_PROJETO/mysql:5.7```
+```docker tag mysql:latest gcr.io/ID_PROJETO/mysql:latest```
 
 ```docker tag wordpress:latest gcr.io/ID_PROJETO/wordpress:latest```
 
 ## Envie para o repositório
 
-```docker push gcr.io/ID_PROJETO/mysql:5.7```
+```docker push gcr.io/ID_PROJETO/mysql:latest```
 
 ```docker push gcr.io/ID_PROJETO/wordpress:latest```
 
