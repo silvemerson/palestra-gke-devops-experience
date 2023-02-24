@@ -12,9 +12,9 @@
 
 ## Aponte para o seu repositório no GCR
 
-```docker tag mysql:latest gcr.io/ID_PROJETO/mysql:latest```
+```docker tag mysql:latest gcr.io/amplified-lamp-378502/mysql:latest```
 
-```docker tag wordpress:latest gcr.io/ID_PROJETO/wordpress:latest```
+```docker tag wordpress:latest gcr.io/amplified-lamp-378502/wordpress:latest```
 
 ## Envie para o repositório
 
