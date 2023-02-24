@@ -16,7 +16,7 @@ spec:
         app: wordpress-mysql
     spec:
       containers:
-      - image: mysql
+      - image: gcr.io/amplified-lamp-378502/mysql
       # - image: gcr.io/amplified-lamp-378502/mysql:5.7
         name: mysql
         env:    

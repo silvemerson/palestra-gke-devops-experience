@@ -17,3 +17,6 @@
 ```export NGINX_INGRESS_IP=$(kubectl -n ingress-nginx get service nginx-control-nginx-ingress -o json | jq -r '.status.loadBalancer.ingress[].ip')```
 
 ```echo $NGINX_INGRESS_IP```
+
+
+34.68.190.95
